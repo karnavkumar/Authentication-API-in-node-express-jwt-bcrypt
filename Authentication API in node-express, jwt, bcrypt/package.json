@@ -1,15 +1,22 @@
 {
-  "name": "Authentication Backend API ",
+  "name": "node-express Authentication Backend API",
   "version": "1.0.0",
-  "description": " this is a simple authentication API with help of node-express framework.
-   it contains also a simple jsonwebtoken and bcrypt-nodejs",
+  "description": " this is a simple authentication API with help of node-express framework. it contains also a simple jsonwebtoken and bcrypt-nodejs",
   "main": "server.js",
   "scripts": {
     "test": "node server.js",
-    "start": "node server.js"
+    "start": "nodemon server.js"
+  },"repository": {
+    "type": "git",
+    "url": "git+https://github.com/karnavkumar/Authentication-API-in-node-express-jwt-bcrypt.git"
   },
   "author": "KARNAV PARGI",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karnavkumar/Authentication-API-in-node-express-jwt-bcrypt/issues"
+  },
+  "homepage": "https://github.com/karnavkumar/Authentication-API-in-node-express-jwt-bcrypt#readme"
+},
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.0",
